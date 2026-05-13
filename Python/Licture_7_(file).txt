@@ -1,0 +1,18 @@
+Today, I’ll show you a cool and simple Python project: how to crack a password using a method called brute force.
+Don’t worry — this is just for learning. It’s called ethical hacking, and it helps to understand how password systems work.
+First, we import three things:
+🛠 itertools — to generate all possible guesses,
+🔡 string — to get letters, numbers, and symbols,
+⏱ and time — to see how fast the password is cracked.
+I set the target password to "abc@".
+You can change this to anything, like "hello123" or "pass@321" — just replace it in the code.
+Now here’s the fun part:
+A loop starts trying every possible combination — like a, b, aa, ab, and so on — until it matches the correct password.
+Once it’s cracked, it prints the password and tells us how many seconds it took.
+Let’s run it…
+🔥 And there it is — the password "abc@" is cracked in seconds!
+This shows how easily short passwords can be broken.
+So always use long and strong ones to stay safe.
+If you liked this, follow for more cool Python projects.
+Thanks for watching!
+
