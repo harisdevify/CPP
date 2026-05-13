@@ -1,0 +1,49 @@
+“In C++, these two look exactly the same…
+but they behave very differently.”
+
+i++  ++i
+
+“Let’s start with i++.”
+
+int i = 5;
+cout << i++;
+
+
+“C++ first uses the value of i.
+It prints five.
+After that, it increases i.”
+
+“So the order is simple:
+use first, then increase.”
+
+========
+
+“Now look at ++i.”
+
+int i = 5;
+cout << ++i;
+
+
+“Here, C++ increases the value first.
+Then it uses the updated value.”
+
+“That’s why this prints six.”
+
+“This difference can create real bugs.”
+
+int i = 5;
+int x = i++;
+
+
+“Now x becomes five,
+but i becomes six.”
+
+“If we used ++i instead,
+both values would be six.”
+
+“So remember this rule.”
+
+“If you don’t need the old value,
+always use ++i.”
+
+“Follow for more C++ confusions.”
